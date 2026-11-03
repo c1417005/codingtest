@@ -15,3 +15,4 @@ for r,c in zip(R,C):
     out.append(f"{bisect_right(ur,r)} {bisect_right(uc,c)}") #集合の中で、座標は何番目か。
 
 print("\n".join(out))
+#それぞれの要素が全体の中で何番目に小さいか
