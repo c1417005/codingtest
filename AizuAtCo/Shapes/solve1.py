@@ -9,7 +9,7 @@ S = [input() for _ in range(N)]
 T = [input() for _ in range(N)]
 
 
-def rot(G):
+def rot(G):#回転部分。
     return ["".join(row) for row in zip(*G[::-1])]
 # G[::-1] リスト逆順
 # [ab, -> [cd,
